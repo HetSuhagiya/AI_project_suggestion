@@ -1,0 +1,29 @@
+# Ignore Python virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Bytecode and cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+
+# VSCode and Mac system files
+.vscode/
+.DS_Store
+
+# Ignore environment variables (keep keys secret)
+.env
+
+# Optional: ignore database dumps or local data
+*.sqlite3
+*.db
+*.log
+*.bak
+
+# Ignore OS or IDE-specific folders
+.idea/
