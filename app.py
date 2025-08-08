@@ -30,7 +30,7 @@ if submit_btn and job_title_input and job_country:
     st.success("✅ Inputs received. Running the scraper...")
 
     with st.spinner("Scraping job listings and generating project ideas..."):
-        from script_1 import run_pipeline
+        from V3_final import run_pipeline
         output = run_pipeline(job_title_input.strip(), job_country.strip())
 
     if output and "suggestions" in output:

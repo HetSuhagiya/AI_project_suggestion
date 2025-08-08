@@ -27,3 +27,6 @@ __pycache__/
 
 # Ignore OS or IDE-specific folders
 .idea/
+
+# Extra Scripts
+Extra Scripts/
